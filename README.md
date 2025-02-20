@@ -1,5 +1,7 @@
 # Sample AEM project template
 
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -DarchetypeGroupId=com.adobe.aem -DarchetypeArtifactId=aem-project-archetype -DarchetypeVersion=39 -DappTitle="AEM Component Library" -DappId="component-library" -DgroupId="com.cmplib" -DincludeExamples=n -DincludeFrontend=y -DaemVersion="cloud"
+
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
 ## Modules
